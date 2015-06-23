@@ -7,20 +7,15 @@ bucketA = 1
 bucketB = 0
 total = 0
 
-while fib < 4000000:
+while fib + bucketA < 4000000:
   bucketB = fib
   fib = fib + bucketA
   print (fib)
   bucketA = bucketB
-  #if fib >4000000:
-  # print (total)
-#else:
-  #bucketA = bucketB
-  #if fib%2 == 0:
-    #total = total+fib
-
-
-
   
+  if fib%2 == 0:
+    total = total+fib
+
+
 print (total)
 
