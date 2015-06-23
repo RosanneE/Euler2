@@ -8,12 +8,19 @@ bucketB = 0
 total = 0
 
 while fib < 4000000:
-  bucketB = bucketA
+  bucketB = fib
   fib = fib + bucketA
+  print (fib)
   bucketA = bucketB
-  if fib%2 == 0:
-    total = total+fib
-  print fib()
+  #if fib >4000000:
+  # print (total)
+#else:
+  #bucketA = bucketB
+  #if fib%2 == 0:
+    #total = total+fib
+
+
+
   
-print total()
+print (total)
 
