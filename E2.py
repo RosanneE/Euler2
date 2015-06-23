@@ -8,6 +8,6 @@ int total = 0
 while (fib < 4,000,000)
   bucketB = bucketA
   fib = fib + bucketA
-  bucketA
-  curr = 
+  bucketA = bucketB
+  print fib()
 
